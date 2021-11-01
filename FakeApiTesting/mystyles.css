@@ -1,0 +1,35 @@
+h4{
+color:darkgoldenrod;
+
+}
+
+h1{
+color:darkred}
+#name{
+
+    color:chocolate;
+}
+#color{
+
+    color:crimson;
+}
+#price{
+
+    color:green;
+}
+#dep{
+
+    color:darkorange;
+}
+#dis{
+
+    color:black;
+}
+#product{
+ border:1px solid grey;
+ margin-bottom: 10px;
+ margin-top: 10px;
+ padding: 5px;
+
+}
+
