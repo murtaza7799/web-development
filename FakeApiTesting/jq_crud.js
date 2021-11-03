@@ -13,8 +13,8 @@ function loadRecepies(){
            recepies.empty();
             $.each(response, function(a){
              recepies.append(`<div id="product">
-             <h4 id="name">${"Name : "+response[a].name}</h4>
-             <button
+             <h4 id="name">${"Name : "+response[a].name} <button class="btn btn-info" id="Delete">Delete</button></h4>
+             
              <h4 id="price">${"Price : "+response[a].price}</h4>
              <h4 id="color">${"Color : "+response[a].color}</h4>
              <h4 id="dep">${"Department : "+response[a].department}</h4>
